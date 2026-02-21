@@ -1,0 +1,14 @@
+{
+    "crons": [
+        {
+            "path": "/api/cron/cleanup",
+            "schedule": "0 0 * * *"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/((?!api/|_next/|public/|assets/|favicon.ico).*)",
+            "destination": "/index.html"
+        }
+    ]
+}
