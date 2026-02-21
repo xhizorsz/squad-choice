@@ -633,6 +633,9 @@ const OverviewPage = ({ sessionId }) => {
 
                 <footer style={{ marginTop: '3rem', paddingBottom: '2rem', textAlign: 'center', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
                     <DonateButton />
+                    <p style={{ fontSize: '0.85rem', opacity: 0.8, marginTop: '-0.5rem' }}>
+                        Open Source on <a href="https://github.com/xhizorsz/squad-choice" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline' }}>GitHub</a> • <a href="https://github.com/xhizorsz/squad-choice/issues/new" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline' }}>Report a Bug</a>
+                    </p>
                 </footer>
 
                 {showSpinWheel && (

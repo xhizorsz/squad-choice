@@ -114,6 +114,9 @@ const LandingPage = () => {
                     🚀 Start a Session
                 </button>
                 <p style={{ color: '#6b7280', fontSize: '0.875rem' }}>© {new Date().getFullYear()} SquadChoice. Built for gamers.</p>
+                <p style={{ color: '#6b7280', fontSize: '0.875rem', marginTop: '0.5rem' }}>
+                    Open Source on <a href="https://github.com/xhizorsz/squad-choice" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline' }}>GitHub</a> • <a href="https://github.com/xhizorsz/squad-choice/issues/new" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline' }}>Report a Bug</a>
+                </p>
             </footer>
         </div>
     );
